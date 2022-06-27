@@ -1,0 +1,36 @@
+.logo{
+  /* d-flex; */
+  align-items: center;
+ margin-right: auto;
+   /* text-decoration-none; */
+}
+
+.logo_text {
+    color: #004A59;
+    font-family:  sans-serif;
+    font-size: 2em;
+    text-decoration: none;
+    /* padding: 2em 5em 2em 2em; */
+  }
+
+
+
+.menu a{
+  text-decoration: none;
+  color: #004A59;
+  font-size:2vh;
+  margin: 3vh;
+}
+
+.menu_top {
+  /* padding: 1em 0em 1em 10em; */
+  display: flex;
+  
+  }
+
+.header_top {
+  background-color: #FFFCD9;
+  display: flex;
+  padding: 2em 2em 2em 5em;
+  /* gap:20%; */
+}
