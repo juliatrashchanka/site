@@ -9,26 +9,8 @@ function App() {
   return (
     <BrowserRouter>
       <div className='Box'>
-            <Header /> 
-        <div className="App">
-        
-        
-          
-        <div className='main_box'>
-          <div className='main_text'>Строим и улучшаем!</div>
-        </div>
-        
-        <Company /> 
-        <Routes>
-          <Route path="/contact" element={<Footer />}/>
-        </Routes>
-          
-        </div>
-
-        <div className='fouter'><Footer  /> </div>
-      </div>
-      <Footer  />
     </BrowserRouter>
 )}
 
 export default App;
+dasdasd
