@@ -1,33 +1,30 @@
-
 import './App.css';
 import Footer from './compon/footer/Footer';
 import Header from './compon/header/Header';
-import Company from './compon/company/company';
-import { BrowserRouter, Route, Routes } from 'react-browser-router';
+import Company from './compon/company/Company';
+import Contacts from './compon/contacts/Contacts';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <BrowserRouter>
       <div className='Box'>
-            <Header /> 
+        <Header /> 
         <div className="App">
         
-        
-          
-        <div className='main_box'>
-          <div className='main_text'>Строим и улучшаем!</div>
-        </div>
-        
-        <Company /> 
+       
+
         <Routes>
-          <Route path="/contact" element={<Footer />}/>
+          <Route path="/company" element={ <Company /> }/>
+          <Route path="/contacts" element={<Contacts />}/>
         </Routes>
           
         </div>
 
-        <div className='fouter'><Footer  /> </div>
-      </div>
+        {/* <div className='fouter'><Footer  /> </div> */}
+     
       <Footer  />
+      </div>
     </BrowserRouter>
 )}
 

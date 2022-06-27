@@ -1,4 +1,4 @@
-import { NavLink } from 'react-browser-router';
+import { NavLink } from 'react-router-dom';
 import style from './Header.module.css';
 
 
@@ -11,14 +11,17 @@ function Header() {
         </div>
 
         <div className={style.menu_top}>
-         <nav className={style.menu}>
-            <a href='#'>Главная</a>
-            {/* <NavLink  to="/main" className={({ isActive }) => isActive ? style.activeClassName : undefined}> Главная </NavLink> */}
-            <a href=''>Отзывы</a>
-            <a href=''>Наши работы</a>
-            <a href=''>Документация</a>
+         <nav className="menu">
+            {/* <a href='#'>Главная</a> */}
+            {/* <a href=''>Отзывы</a>
+            <a href=''>Наши работы</a> */}
+            {/* <a href=''>Документация</a> */}
             {/* <a href=''>Контакты</a> */}
-            <NavLink  to="/contact" className={({ isActive }) => isActive ? style.activeClassName : style.menu}>Контакты</NavLink>
+            <NavLink  to="/company" className={({ isActive }) => isActive ? style.active_menu : style.not_active__menu}>Главная</NavLink>
+            <NavLink  to="/feedbacks" className={({ isActive }) => isActive ? style.active_menu : style.not_active__menu}>Отзывы</NavLink>
+            <NavLink  to="/projects" className={({ isActive }) => isActive ? style.active_menu : style.not_active__menu}>Наши работы</NavLink>
+            <NavLink  to="/documents" className={({ isActive }) => isActive ? style.active_menu : style.not_active__menu}>Документация</NavLink>
+            <NavLink  to="/contacts" className={({ isActive }) => isActive ? style.active_menu : style.not_active__menu}>Контакты</NavLink>
          </nav>
       
          </div>

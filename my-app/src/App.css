@@ -1,7 +1,7 @@
-.main_box{
+/* .main_box{
   display: flex;
 background-image: url(https://homesbytradition.com/wp-content/uploads/2015/08/build.jpg) ;
-/* background-position: center; */
+
 background-size: cover;
 min-height: 50vh;
 min-width: 100%;
@@ -16,11 +16,13 @@ min-width: 100%;
   padding: 1vh 1vh 1vh 1vh;
   min-width: 100%;
     
-}
+} */
 
 
 .Box{
-  width: 100%;
+  /* width: 100%; */
+  overflow: auto;
+  text-align: center;
   background-color: #FFFCD9;
 }
 
@@ -29,10 +31,10 @@ min-width: 100%;
 
 .App {
   text-align: center;
-  min-width: 100%;
+  /* min-width: 100%; */
 
 }
-
+/* 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -42,8 +44,8 @@ min-width: 100%;
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
+} */
+/* 
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -57,7 +59,7 @@ min-width: 100%;
 
 .App-link {
   color: #61dafb;
-}
+} */
 
 
 @keyframes App-logo-spin {

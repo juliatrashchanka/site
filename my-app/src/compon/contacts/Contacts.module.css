@@ -1,0 +1,19 @@
+.contacts{
+width: 100vw;
+height: 80vh;
+justify-content: center;
+align-content: center;
+background-color: #2e2e41;
+}
+
+.contacts_box{
+    width: 10vw;
+/* justify-self: center; */
+/* align-content: center; */
+background-color: antiquewhite;
+margin: ;
+}
+
+.contacts_text{
+
+}

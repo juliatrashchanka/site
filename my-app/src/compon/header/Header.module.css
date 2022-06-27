@@ -8,19 +8,28 @@
 .logo_text {
     color: #004A59;
     font-family:  sans-serif;
-    font-size: 2em;
+    font-size: 2vw;
     text-decoration: none;
     /* padding: 2em 5em 2em 2em; */
   }
 
 
 
-.menu a{
+.active_menu{
+  
+  text-decoration: none;
+  color: #c73618;
+  font-size:2vh;
+  margin: 3vh;
+}
+
+.not_active__menu{
   text-decoration: none;
   color: #004A59;
   font-size:2vh;
   margin: 3vh;
 }
+
 
 .menu_top {
   /* padding: 1em 0em 1em 10em; */
@@ -30,6 +39,7 @@
 
 .header_top {
   background-color: #FFFCD9;
+  /* width: 100%; */
   display: flex;
   padding: 2em 2em 2em 5em;
   /* gap:20%; */
