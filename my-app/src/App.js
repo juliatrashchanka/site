@@ -12,9 +12,10 @@ function App() {
         <Header /> 
         <div className="App">
         
-       
+       {/* function(styleBlock, styleImg, styleText ); */}
 
         <Routes>
+          <Route path="/company" element={ <Company /> }/>
           <Route path="/company" element={ <Company /> }/>
           <Route path="/contacts" element={<Contacts />}/>
         </Routes>

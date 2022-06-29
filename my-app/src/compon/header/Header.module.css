@@ -16,7 +16,7 @@
 
 
 .active_menu{
-  
+  font-family:  sans-serif;
   text-decoration: none;
   color: #c73618;
   font-size:2vh;
@@ -25,6 +25,7 @@
 
 .not_active__menu{
   text-decoration: none;
+  font-family:  sans-serif;
   color: #004A59;
   font-size:2vh;
   margin: 3vh;

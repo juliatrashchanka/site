@@ -1,19 +1,33 @@
 .contacts{
-width: 100vw;
+width: 100%;
 height: 80vh;
+display:  flex;
 justify-content: center;
-align-content: center;
 background-color: #2e2e41;
+
 }
 
 .contacts_box{
-    width: 10vw;
-/* justify-self: center; */
-/* align-content: center; */
-background-color: antiquewhite;
-margin: ;
+    /* width: 10vw; */
+display: flexBOX;
+border: 5px solid;
+border-radius: 10px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    margin-right: 40%;
+box-sizing: border-box;
+border-color: #FFFCD9;
+background-color: #FFFCD9;
+box-shadow: 10px 10px 40px 0px #004a59;
+
 }
 
-.contacts_text{
-
+.contacts_box p{
+    /* display: flex; */
+    font-family:  sans-serif;
+    display: flexBOX;
+    font-size: 2vh;
+    color: #004A59;
+    margin: 5%;
 }
