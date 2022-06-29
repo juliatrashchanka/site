@@ -77,15 +77,46 @@
   .inf_img{
     max-width: 40%;
     max-height: 50%;
+    box-shadow: 10px 10px 15px 0px #5a6063f8;
   /* margin-right: 60%; */
   }
 
   .inf_text_box{
-    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
     margin-top: 3%;
+    margin-bottom: 3%;
+    
   }
 
   .inf_text_main{
+    
     font-family:  sans-serif;
    
   }
+  .inf_text{
+   text-align: left;
+   font-family:  sans-serif;
+    color: #2e2e41;
+    width: 90%;
+   
+  }
+
+.services_box{
+  display: flex;
+  background-image: url( https://www.prereal.com/uploads/load-imagetools.jpeg) ;
+   background-position: center; 
+  background-size: cover;
+}
+
+.services_box_title{
+background-color: bisque;
+height: 40vh;
+width: 40%;
+margin-top: 5%;
+margin-bottom: 10%;
+margin-left: 5%;
+margin-right: 40%;
+}
+ 
