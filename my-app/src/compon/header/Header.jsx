@@ -7,7 +7,8 @@ function Header() {
       <div className={style.header_top}> 
         
         <div className={style.logo}>
-            <a href="" className={style.logo_text}>ООО "СНЕКТРЕЙД"</a>
+            {/* <a href="" className={style.logo_text}>ООО "СНЕКТРЕЙД"</a> */}
+            <NavLink  to="/company" className={style.logo_text}>ООО "СНЕКТРЕЙД"</NavLink>
         </div>
 
         <div className={style.menu_top}>
@@ -18,9 +19,9 @@ function Header() {
             {/* <a href=''>Документация</a> */}
             {/* <a href=''>Контакты</a> */}
             <NavLink  to="/company" className={({ isActive }) => isActive ? style.active_menu : style.not_active__menu}>Главная</NavLink>
-            <NavLink  to="/feedbacks" className={({ isActive }) => isActive ? style.active_menu : style.not_active__menu}>Отзывы</NavLink>
+            <NavLink  to="/feedback" className={({ isActive }) => isActive ? style.active_menu : style.not_active__menu}>Отзывы</NavLink>
             <NavLink  to="/projects" className={({ isActive }) => isActive ? style.active_menu : style.not_active__menu}>Наши работы</NavLink>
-            <NavLink  to="/documents" className={({ isActive }) => isActive ? style.active_menu : style.not_active__menu}>Документация</NavLink>
+            <NavLink  to="/documentation" className={({ isActive }) => isActive ? style.active_menu : style.not_active__menu}>Документация</NavLink>
             <NavLink  to="/contacts" className={({ isActive }) => isActive ? style.active_menu : style.not_active__menu}>Контакты</NavLink>
          </nav>
       
