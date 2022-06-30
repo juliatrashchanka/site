@@ -3,7 +3,8 @@
   background-image: url(https://homesbytradition.com/wp-content/uploads/2015/08/build.jpg) ;
   /* background-position: center; */
   background-size: cover;
-  min-height: 50vh;
+  min-height: 55vh;
+  box-shadow: 10px 10px 15px 0px #635047f8;
   /* width: 100vw; */
   
   }
@@ -11,6 +12,8 @@
     justify-content: right;
     align-items:flex-end;
      display: flex; 
+     margin-left: auto;
+     margin-bottom: 3%;
     color: rgb(255, 255, 255);
     font-size:9vh;
     padding: 1vh 1vh 1vh 1vh;
@@ -21,7 +24,7 @@
 
 
   .advantages_top{
-    background-color: #FFFCD9;
+    /* background-color: ; */
     display: block ;
     
     /* display: flexBOX; */
@@ -34,8 +37,8 @@
     /* flex-direction: column; */
     /* width: 70%; */
     height: 40vh;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 7%;
+    margin-bottom: 7%;
     margin-left: 10%;
     margin-right: 10%;
   
@@ -46,14 +49,14 @@
   }
 
   .advantages_card{
-    background-color: #f2fdb0;
+    background-color: #216974;
     
     border-radius: 10px;
     margin: auto;
     width: 20%;
     height: 100%;
     flex-wrap: wrap;
-    box-shadow: 10px 10px 15px 0px #5a6063f8;
+    box-shadow: 10px 10px 15px 0px #14100ef8;
   }
 
   .img_adv {
@@ -64,20 +67,23 @@
 
   .advanteges_text{
     font-size: 2vh ;
+    color: #fffcd9;
+    text-shadow: 10px 10px 15px 0px #0c0908f8;
     font-family:  sans-serif;
    margin-top: 15%;
   }
 
 .company_inf{
-  background-color: #f2fdb0;
+  background-color: #FFFCD9;
   display: flex;
   /* display: inline-block; */
   flex-direction: row;
+  
 }
   .inf_img{
     max-width: 40%;
     max-height: 50%;
-    box-shadow: 10px 10px 15px 0px #5a6063f8;
+    box-shadow: 10px 10px 15px 0px #393d3ff8;
   /* margin-right: 60%; */
   }
 
@@ -85,14 +91,16 @@
     display: flex;
     flex-direction: column;
     margin-left: 5%;
-    margin-top: 3%;
+    margin-top: 2%;
     margin-bottom: 3%;
+    font-size: 2vh;
     
   }
 
   .inf_text_main{
-    
-    font-family:  sans-serif;
+   
+    color: #2e2e41;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    
   }
   .inf_text{
@@ -103,20 +111,42 @@
    
   }
 
-.services_box{
+  .dop{
+    height: 20vh;
+  }
+
+.services_box_top{
   display: flex;
   background-image: url( https://www.prereal.com/uploads/load-imagetools.jpeg) ;
    background-position: center; 
   background-size: cover;
 }
 
-.services_box_title{
-background-color: bisque;
-height: 40vh;
-width: 40%;
-margin-top: 5%;
-margin-bottom: 10%;
-margin-left: 5%;
+.services_box{
+background-color: rgb(255, 252, 217, 0.8);
+height: 88vh;
+width: 65%;
+margin-top: 4%;
+margin-bottom: 6%;
+margin-left: 8%;
 margin-right: 40%;
+
 }
  
+.services_title{
+ 
+ margin-top: 5%;
+  font-size: 2vw;
+  margin-bottom: 2%;
+}
+
+.services_text{
+  text-align: left;
+  margin-left: 4%;
+
+  font-size: 2.5vh;
+}
+
+.services_text li{
+  margin-bottom: 2%;
+}

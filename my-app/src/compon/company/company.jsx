@@ -58,7 +58,7 @@ function Company() {
 
     <div className={style.company_inf}>
       
-      <img className={style.inf_img} src={  "https://i.insider.com/5e137276855cc261a90b8513?width=700"}></img>
+      <img className={style.inf_img} src={  "https://www.homestratosphere.com/wp-content/uploads/2018/10/woodworking-tools-100218-min.jpg"}></img>
       {/*
       https://www.prereal.com/uploads/load-imagetools.jpeg */}
       <div className={style.inf_text_box}>
@@ -74,9 +74,29 @@ function Company() {
 
     </div>
 
+    <div className={style.dop}></div>
 
-    <div className={style.services_box}>
-      <div className={style.services_box_title}>chj</div>
+
+    <div className={style.services_box_top}>
+      <div className={style.services_box}>
+        <div className={style.services_title}>Для Вас выполним:</div>
+        <div className={style.services_text}>
+         <ul>
+          <li>кровельные работы (черепица, шифер, мягкая кровля);</li>
+          <li>все виды отделочных работ;</li>
+          <li>облицовку различными материалами;</li>
+          <li>оштукатуривание, поклейку обоев, побелку стен и потолков;</li>
+          <li>укладку напольных покрытий (ламинат, линолеум, паркет и т.д.);</li>
+          <li>работы по утеплению и отделке фасадов (усройство легких и тяжелых систем утепления, систем на основе комплексных теплоизоляционных изделий, вентилируемых систем утепления);</li>
+          <li>антикорозионные покрытия строительных сооружений и зданий;</li>
+          <li>работы по монтажу деревянных конструкций;</li>
+          <li>все виды бетонных работ;</li>
+          <li>электромонтажные работы;</li>
+          <li>работы по благоусройству;</li>
+          <li>комплексные поставки электротехники, кабельно-проводниковой продукции и светотехники.</li>
+          </ul> 
+        </div>
+      </div>
     </div>
 
 
