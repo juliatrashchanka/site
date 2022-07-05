@@ -24,18 +24,14 @@
 
 
   .advantages_top{
-    /* background-color: ; */
+
     display: block ;
     
-    /* display: flexBOX; */
-    /* width: 100%; */
-    /* padding: 5% 20% 0 0;  */
+ 
   }
 
   .advantages{
-    /* background-color: rgb(179, 57, 27); */
-    /* flex-direction: column; */
-    /* width: 70%; */
+
     height: 40vh;
     margin-top: 7%;
     margin-bottom: 7%;
@@ -43,9 +39,7 @@
     margin-right: 10%;
   
     display: flex;
-    /* float: left; */
-    /* justify-content: center; */
-    /* flex-wrap: wrap; */
+
   }
 
   .advantages_card{
@@ -124,6 +118,8 @@
 
 .services_box{
 background-color: rgb(255, 252, 217, 0.8);
+display: flex;
+flex-direction: column;
 height: 88vh;
 width: 65%;
 margin-top: 4%;
@@ -141,6 +137,7 @@ margin-right: 40%;
 }
 
 .services_text{
+  display: flex;
   text-align: left;
   margin-left: 4%;
 
